@@ -675,6 +675,9 @@ require('lazy').setup({
             require('lspconfig')[server_name].setup(server)
           end,
         },
+        ensure_installed = {
+          'ts_ls',
+        },
       }
     end,
   },
